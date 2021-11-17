@@ -139,31 +139,31 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         let newsUrl = URL(string: "https://www.tokyo-harusai.com/news_jp/")!
         let ticketUrl = URL(string: "https://www.tokyo-harusai.com/ticket_general/")!
         let notificationUrl = URL(string: "https://www.tokyo-harusai.com/category/sf_news/?post_type=news_jp")!
-        let url = URL(string: "https://www.tokyo-harusai.com/")!
+//        let url = URL(string: "https://www.tokyo-harusai.com/")!
         if indexPath.row == 0 {
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url)
-            }
+//            if UIApplication.shared.canOpenURL(url) {
+//                UIApplication.shared.open(url)
+//            }
         } else if indexPath.row == 1 {
             if UIApplication.shared.canOpenURL(newsUrl) {
                 UIApplication.shared.open(newsUrl)
             }
         } else if indexPath.row == 2 {
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url)
-            }
+//            if UIApplication.shared.canOpenURL(url) {
+//                UIApplication.shared.open(url)
+//            }
         } else if indexPath.row == 3 {
             if UIApplication.shared.canOpenURL(ticketUrl) {
                 UIApplication.shared.open(ticketUrl)
             }
         } else if indexPath.row == 4 {
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url)
-            }
+//            if UIApplication.shared.canOpenURL(url) {
+//                UIApplication.shared.open(url)
+//            }
         } else if indexPath.row == 5 {
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url)
-            }
+//            if UIApplication.shared.canOpenURL(url) {
+//                UIApplication.shared.open(url)
+//            }
         } else if indexPath.row == 6 {
             if UIApplication.shared.canOpenURL(notificationUrl) {
                 UIApplication.shared.open(notificationUrl)

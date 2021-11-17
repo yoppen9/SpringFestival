@@ -10,6 +10,7 @@
 		AF0B85372733A6BC0070258E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B85362733A6BC0070258E /* HomeViewController.swift */; };
 		AF0B85612733FF430070258E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B85602733FF430070258E /* TabBarController.swift */; };
 		AF0B8569273B5D810070258E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B8568273B5D810070258E /* CollectionViewCell.swift */; };
+		AF0B856B274367AD0070258E /* VenueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B856A274367AC0070258E /* VenueCollectionViewCell.swift */; };
 		AF34DA622713F9FA00255972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34DA612713F9FA00255972 /* AppDelegate.swift */; };
 		AF34DA662713F9FA00255972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34DA652713F9FA00255972 /* ViewController.swift */; };
 		AF34DA6B2713F9FF00255972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34DA6A2713F9FF00255972 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		AF0B85362733A6BC0070258E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF0B85602733FF430070258E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		AF0B8568273B5D810070258E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AF0B856A274367AC0070258E /* VenueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCollectionViewCell.swift; sourceTree = "<group>"; };
 		AF34DA5E2713F9FA00255972 /* SpringFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF34DA612713F9FA00255972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF34DA652713F9FA00255972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				AF34DA7B2727BA9200255972 /* MovieViewController.swift */,
 				AF34DA7D2727BB5C00255972 /* ScheduleViewController.swift */,
 				AF34DA7F2727BB8400255972 /* AreaMapViewController.swift */,
+				AF0B856A274367AC0070258E /* VenueCollectionViewCell.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				AF34DA622713F9FA00255972 /* AppDelegate.swift in Sources */,
 				AF0B85372733A6BC0070258E /* HomeViewController.swift in Sources */,
 				AF34DA7E2727BB5C00255972 /* ScheduleViewController.swift in Sources */,
+				AF0B856B274367AD0070258E /* VenueCollectionViewCell.swift in Sources */,
 				AF34DA7C2727BA9300255972 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
