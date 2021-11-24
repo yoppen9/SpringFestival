@@ -8,10 +8,13 @@
 import UIKit
 
 class VenueCollectionViewCell: UICollectionViewCell {
+    
     private let venueNameLabel: UILabel = {
         let label = UILabel()
         label.frame = CGRect(x: 10, y: 10, width: 380, height: 50)
-        label.font = .systemFont(ofSize: 25, weight: UIFont.Weight(rawValue: 10))
+        label.font = .systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 10))
+        label.numberOfLines = 0
+        label.lineBreakMode = .byCharWrapping
         return label
     }()
     private let venueImageView: UIImageView = {
@@ -49,9 +52,9 @@ class VenueCollectionViewCell: UICollectionViewCell {
     private let mapButton: UIButton = {
         let button = UIButton()
         button.setTitle("地図", for: .normal)
-        button.setTitleColor(UIColor.purple, for: .normal)
+        button.setTitleColor(UIColor(red: 255/255, green: 98/255, blue: 201/255, alpha: 1), for: .normal)
         button.frame = CGRect(x: 160, y: 515, width: 80, height: 30)
-        button.layer.borderColor = UIColor.purple.cgColor
+        button.layer.borderColor = UIColor(red: 255/255, green: 98/255, blue: 201/255, alpha: 1).cgColor
         button.layer.borderWidth = 1
         button.layer.cornerRadius = 10
         return button
@@ -59,9 +62,9 @@ class VenueCollectionViewCell: UICollectionViewCell {
     private let siteButton: UIButton = {
         let button = UIButton()
         button.setTitle("公式サイト", for: .normal)
-        button.setTitleColor(UIColor.purple, for: .normal)
+        button.setTitleColor(UIColor(red: 255/255, green: 98/255, blue: 201/255, alpha: 1), for: .normal)
         button.frame = CGRect(x: 250, y: 515, width: 130, height: 30)
-        button.layer.borderColor = UIColor.purple.cgColor
+        button.layer.borderColor = UIColor(red: 255/255, green: 98/255, blue: 201/255, alpha: 1).cgColor
         button.layer.borderWidth = 1
         button.layer.cornerRadius = 10
         return button
